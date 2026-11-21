@@ -1,95 +1,83 @@
 <p align="center"><img src="docs/readme/banner.svg" alt="Ziggy Bot: your own team of AI helpers, living on your own PC" width="100%"></p>
 
 <p align="center">
-  <a href="https://github.com/Zygpolski/ziggybot-releases/releases/latest"><b>⬇️ Download Ziggy Bot for Windows</b></a>
-  &nbsp;·&nbsp; <a href="#2-install-it-and-start-it">How to install</a>
-  &nbsp;·&nbsp; <a href="#everything-ziggy-bot-can-do">What it can do</a>
-  &nbsp;·&nbsp; <a href="#questions-people-ask">Questions</a>
-  &nbsp;·&nbsp; <a href="mailto:zygpolski@proton.me">Report a bug</a>
+  <a href="https://github.com/Zygpolski/ziggybot-releases/releases/latest"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows%2011-4f5bd5?style=for-the-badge&logo=windows11&logoColor=white"></a>
+  <a href="https://github.com/Zygpolski/ziggybot-releases/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/Zygpolski/ziggybot-releases?style=for-the-badge&label=latest&color=7a4fd5"></a>
+  <img alt="Active development" src="https://img.shields.io/badge/status-active%20development-1f9d8b?style=for-the-badge">
 </p>
 
-# Ziggy Bot
+<p align="center">
+  <a href="#what-is-ziggy-bot"><b>What it is</b></a> &nbsp;·&nbsp;
+  <a href="#features"><b>Features</b></a> &nbsp;·&nbsp;
+  <a href="#part-1-getting-started"><b>Get started</b></a> &nbsp;·&nbsp;
+  <a href="#part-2-for-advanced-users"><b>Advanced</b></a> &nbsp;·&nbsp;
+  <a href="#questions-people-ask"><b>FAQ</b></a> &nbsp;·&nbsp;
+  <a href="#feedback-and-support"><b>Feedback</b></a>
+</p>
 
-**Your own team of AI helpers, living on your own PC. No subscription. No usage limits. Nothing leaves your computer
-unless you send it.**
+<p align="center"><img src="docs/readme/screens/main-window.png" alt="Ziggy Bot: the Researcher has opened a web page and answered, with the Computer panel showing its browser" width="94%"></p>
 
-Ziggy Bot is a Windows app where you make *bots*: helpers that each have one job, like "keep an eye on this web page",
-"research this for me" or "write my morning briefing". You talk to them in chats, like messaging a colleague. They
-browse the web, read and write files, do exact sums, remember what you tell them, work together as a team and run
-jobs on a timetable, and they always stop to ask you before doing anything that can't be undone.
+## What is Ziggy Bot?
 
-> 🚀 **Always getting better.** Ziggy Bot is in active development, with new features and fixes arriving regularly
-> through its built-in updates. As a young project it may still have the odd bug, so thank you for your patience. If something
-> doesn't work as it should, or you have an idea that would make Ziggy Bot better, I'd love to hear from you:
-> **[zygpolski@proton.me](mailto:zygpolski@proton.me)**. Every report helps shape the next version.
-![Ziggy Bot in one picture](docs/readme/big-picture.svg)
+Ziggy Bot is a Windows app that gives you **a team of AI helpers that work on your own PC**. Each bot has one job,
+like *research this for me*, *write my morning briefing* or *keep an eye on this web page*. You talk to them like
+colleagues. They browse the web, read and write files, do exact sums, remember what you tell them, work together as
+a team and run jobs on a timetable, and they **always stop to ask you** before doing anything that can't be undone.
 
-![Ziggy Bot: a bot has opened a web page and answered, with the Computer panel showing its browser](docs/readme/screens/main-window.png)
+The AI runs on your own graphics card: **no subscription, no usage limits, and your data stays on your computer.**
+Ziggy Bot is in active development, with improvements arriving through its built-in updates.
 
-**In this guide**
+<p align="center"><img src="docs/readme/big-picture.svg" alt="Ziggy Bot in one picture" width="94%"></p>
 
-- [How the idea came about](#how-the-idea-came-about)
-- [Everything Ziggy Bot can do](#everything-ziggy-bot-can-do)
-- **Part 1: Getting started**, for everyone: [what you need](#1-what-you-need) ·
-  [install](#2-install-it-and-start-it) · [the window](#3-a-tour-of-the-window) · [your first bot](#4-make-your-first-bot) ·
-  [chatting](#5-chat-with-a-bot) · [teams](#6-teams-of-bots) · [the browser](#7-the-bots-browser-and-taking-turns) ·
-  [approvals](#8-approvals-nothing-risky-without-your-ok) · [memory](#9-memory) · [skills](#10-skills-teach-a-bot-how) ·
-  [routines](#11-routines-jobs-on-a-timetable) · [good to know](#12-good-to-know)
-- **Part 2: For advanced users**: [every tool](#13-every-tool-a-bot-can-have) ·
-  [approval settings](#14-approval-settings-auto-ask-never) · [connectors](#15-connectors-and-apis) ·
-  [the terminal](#16-the-terminal) · [routines in depth](#17-routines-in-depth) · [Teach](#18-teach-in-depth) ·
-  [templates](#19-templates-share-and-reuse-bots) · [memory in depth](#20-memory-in-depth) ·
-  [the AI model](#21-the-ai-model) · [System Health](#22-system-health) · [settings](#23-settings-in-depth) ·
-  [a message's journey](#24-what-happens-when-you-send-a-message) · [safety](#25-safety-you-stay-in-charge) ·
-  [your files](#26-where-your-things-are-kept)
-- [Questions people ask](#questions-people-ask) · [Glossary](#glossary)
+## Features
 
----
+<table>
+<tr>
+<td width="33%" valign="top"><b>🤖 Bots with one job each</b><br><sub>Start from a ready-made template or from scratch. Each bot has its own name, face, instructions, tools and memory.</sub></td>
+<td width="33%" valign="top"><b>💬 Chat like a colleague</b><br><sub>Message a bot, attach files and pictures (it can see them), and watch every step it takes.</sub></td>
+<td width="33%" valign="top"><b>👥 Teams</b><br><sub>Put several bots in one thread. The lead splits your request, hands out the parts and reports back.</sub></td>
+</tr>
+<tr>
+<td valign="top"><b>🌐 Its own web browser</b><br><sub>Bots search, open pages, click, type and read, tables and charts included, in a Chrome of their own.</sub></td>
+<td valign="top"><b>🔑 You do the human bits</b><br><sub>Sign-ins, "are you human" checks and codes come to you: the browser takes turns between you and the bots.</sub></td>
+<td valign="top"><b>✅ Approvals</b><br><sub>Sending, buying, posting, deleting, your personal details: nothing happens until you press Approve.</sub></td>
+</tr>
+<tr>
+<td valign="top"><b>🧠 Memory</b><br><sub>Bots remember what you tell them, show you what they learnt, and forget it when you delete it.</sub></td>
+<td valign="top"><b>📚 Skills</b><br><sub>Save a method that worked, or show a bot how by doing it yourself while it watches.</sub></td>
+<td valign="top"><b>⏰ Routines</b><br><sub>Jobs that run by themselves: every morning, every 15 minutes, once, or "watch until this happens".</sub></td>
+</tr>
+<tr>
+<td valign="top"><b>🧮 Exact maths</b><br><sub>A calculator tool, so figures are worked out, never guessed.</sub></td>
+<td valign="top"><b>📁 Files and a terminal</b><br><sub>A shared workspace folder, and a Windows terminal that asks before anything risky.</sub></td>
+<td valign="top"><b>🔌 Connectors</b><br><sub>Plug in other services and APIs, with their keys stored encrypted.</sub></td>
+</tr>
+<tr>
+<td valign="top"><b>🔍 Search</b><br><sub>Find any message in any chat in seconds.</sub></td>
+<td valign="top"><b>🔄 Updates</b><br><sub>The app and its AI model update themselves when you press Update.</sub></td>
+<td valign="top"><b>💻 Fits your PC</b><br><sub>Set up picks the size of AI model that suits your graphics card.</sub></td>
+</tr>
+</table>
 
-## How the idea came about
+## Why Ziggy Bot?
 
 AI assistants that *do* things, not just chat, arrived as cloud services, Grok Bot among them: a team of named bots
-sharing one computer, browsing, remembering, running routines and handing work to each other. It's a brilliant idea,
-but it lives on someone else's servers. It costs a monthly fee, it rations how much you can use it, your
-conversations and logins sit in another company's cloud, and its rules decide what it will and won't help with.
+that browse, remember, run routines and hand work to each other. A brilliant idea, but one that lives on someone
+else's servers, with a monthly fee, limits on how much you can use it, and your conversations in another company's
+cloud. Ziggy Bot asks a simple question: **what if that whole team lived on your own PC instead?**
 
-Ziggy Bot started from a simple question: **what if that whole team lived on your own PC instead?**
-
-- **No subscription and no limits.** The AI runs on your own graphics card, so it costs nothing to use, however much
-  you use it, day and night.
-- **Private.** Your chats, memories, files and sign-ins stay on your computer.
-- **Yours to shape.** Make as many bots as you like, each with its own job, tools and memory. Choose the standard AI
-  model or an uncensored one for security study.
-- **Still safe.** Anything that can't be undone, such as sending, buying, posting or deleting, waits for your OK.
-
-It does everything you'd expect from that kind of assistant: one place to talk to a team of bots that browse, work
-with files, remember, follow schedules and pass work between each other, while you keep control.
-
----
-
-## Everything Ziggy Bot can do
-
-| | What it means for you |
+| | |
 |---|---|
-| 🤖 **Bots with one job each** | Make a bot from a ready-made template or from scratch. Each has its own name, face, instructions, tools and memory |
-| 💬 **Chat like a colleague** | Message a bot, attach files and pictures (it can see them), and watch every step it takes |
-| 👥 **Teams** | Put several bots in one thread. A lead bot splits your request, hands the parts out and reports back |
-| 🌐 **Its own web browser** | The bots search, open pages, click, type and read, including tables and charts, in a Chrome of their own |
-| 🔑 **You do the human bits** | Sign-ins, "are you human" checks and codes are handed to you; the browser takes turns between you and the bots |
-| ✅ **Approvals** | Sending, buying, posting, deleting, submitting your details: nothing happens until you press Approve |
-| 🧠 **Memory** | Bots remember what you tell them, show you what they learnt, and forget it when you delete it |
-| 📚 **Skills** | Save a method that worked, or *show* a bot how by doing it yourself while it watches |
-| ⏰ **Routines** | Jobs that run by themselves: every morning, every 15 minutes, once, or "watch until this happens" |
-| 🧮 **Exact maths** | A calculator tool, so figures are worked out, not guessed |
-| 📁 **Files and a terminal** | A shared workspace folder, and a Windows terminal that asks before anything risky |
-| 🔌 **Connectors** | Plug in other services and APIs, with keys stored encrypted |
-| 🔍 **Search** | Find any message in any chat |
-| 🩺 **System Health** | Every part of Ziggy Bot with a green or red light and a restart button |
-| 🔄 **Updates** | The app and the AI model update themselves when you press Update |
-| 💻 **Fits your PC** | It picks the size of AI model that suits your graphics card |
+| **No subscription, no limits** | The AI runs on your graphics card, so it costs nothing to use, however much you use it |
+| **Private** | Your chats, memories, files and sign-ins stay on your computer |
+| **Yours to shape** | As many bots as you like, each with its own job, tools and memory; a standard or an uncensored AI model |
+| **Safe by design** | Anything that can't be undone waits for your OK |
+
+**The guide:** [Getting started](#part-1-getting-started) covers everything you need, step by step.
+[For advanced users](#part-2-for-advanced-users) goes through every tool and setting.
+Then there are [questions people ask](#questions-people-ask) and a [glossary](#glossary).
 
 ---
-
 # Part 1: Getting started
 
 ## 1. What you need
@@ -512,12 +500,25 @@ refuse automated browsers entirely; the bot tells you when that happens.
 **Can I use my browser extensions?** Yes: install them in the bots' browser on your turn. Their passwords
 stay yours, and anything that sends, buys or signs waits for your approval.
 
-**I found a bug, or I have an idea. Where do I send it?** Email **[zygpolski@proton.me](mailto:zygpolski@proton.me)**:
+**I found a bug, or I have an idea. Where do I send it?** See [Feedback and support](#feedback-and-support) below, or email **[zygpolski@proton.me](mailto:zygpolski@proton.me)**:
 say what you did, what you expected and what happened instead (a screenshot helps). Ziggy Bot is improved all the time,
 and reports like yours decide what gets fixed first.
 
 **Will it slow my games down?** Bots share your graphics card, so heavy games and bots slow each other. Pause all
 bots while you play.
+
+---
+
+## Feedback and support
+
+Ziggy Bot is in active development: new features and fixes arrive regularly through its built-in updates. As a young
+project it may still have the odd rough edge. If something doesn't work as it should, or you have an idea that would
+make Ziggy Bot better, I'd love to hear from you.
+
+<p align="center"><a href="mailto:zygpolski@proton.me"><img alt="Email zygpolski@proton.me" src="https://img.shields.io/badge/Email-zygpolski%40proton.me-6d4aff?style=for-the-badge&logo=protonmail&logoColor=white"></a></p>
+
+When you report a bug, say what you did, what you expected and what happened instead; a screenshot helps. Every
+report helps shape the next version.
 
 ---
 
