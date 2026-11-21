@@ -28,6 +28,11 @@ a team and run jobs on a timetable, and they **always stop to ask you** before d
 The AI runs on your own graphics card: **no subscription, no usage limits, and your data stays on your computer.**
 Ziggy Bot is in active development, with improvements arriving through its built-in updates.
 
+> [!NOTE]
+> **Known issue: the bots' browser.** We're aware the browser window can flicker or slip behind Ziggy Bot when a bot
+> opens a page, and that a sign-in or a newly added extension can sometimes be lost when you hand the browser back.
+> We're working on a fix now, and it will arrive as an automatic update. See [the bots' browser](#7-the-bots-browser-and-taking-turns) for a tip in the meantime.
+
 <p align="center"><img src="docs/readme/big-picture.svg" alt="Ziggy Bot in one picture" width="94%"></p>
 
 ## Features
@@ -239,6 +244,11 @@ Some things only a person should do: **signing in, "are you human" checks, two-s
 - **During your turn the bots wait.** If you ask a bot about the page then, it can only *look* at your screen; it
   won't click or type. Routines that need the browser wait too, and the panel shows how many are waiting, so you
   don't forget to give it back.
+
+> [!TIP]
+> **While we fix the browser:** when you've signed in or added an extension on your turn, wait about ten seconds for
+> Chrome to save it, then press **Give back** in the Computer panel rather than minimising the window. If the window
+> slips behind Ziggy Bot, the **Computer** panel always shows it.
 
 **Bots never sign in for you.** Sign-ins, passwords and codes are always yours. A few websites refuse automated
 browsers even after you've signed in; then the bot says so, and that job is one to do yourself.
