@@ -513,10 +513,6 @@ refuse automated browsers entirely; the bot tells you when that happens.
 **Can I use my browser extensions?** Yes: install them in the bots' browser on your turn. Their passwords
 stay yours, and anything that sends, buys or signs waits for your approval.
 
-**I found a bug, or I have an idea. Where do I send it?** See [Feedback and support](#feedback-and-support) below, or email **[zygpolski@proton.me](mailto:zygpolski@proton.me)**:
-say what you did, what you expected and what happened instead (a screenshot helps). Ziggy Bot is improved all the time,
-and reports like yours decide what gets fixed first.
-
 **Will it slow my games down?** Bots share your graphics card, so heavy games and bots slow each other. Pause all
 bots while you play.
 
@@ -525,16 +521,28 @@ bots while you play.
 ## Feedback and support
 
 Ziggy Bot is in active development: new features and fixes arrive regularly through its built-in updates. As a young
-project it may still have the odd rough edge. If something doesn't work as it should, or you have an idea that would
-make Ziggy Bot better, I'd love to hear from you.
+project it may still have the odd rough edge, and your feedback is the fastest way to smooth it out. Whether something
+isn't working, something could be clearer, or you have an idea for a new feature, I'd love to hear from you.
 
 <p align="center"><a href="mailto:zygpolski@proton.me"><img alt="Email zygpolski@proton.me" src="https://img.shields.io/badge/Email-zygpolski%40proton.me-6d4aff?style=for-the-badge&logo=protonmail&logoColor=white"></a></p>
 
-When you report a bug, say what you did, what you expected and what happened instead; a screenshot helps. Every
-report helps shape the next version.
+**Reporting a bug.** The more of these you can include, the quicker it can be found and fixed:
+
+- **Your version**, shown at the bottom of the sidebar (for example *v0.9.53*).
+- **What you did**, step by step: which bot (and the template it came from), and what you asked it.
+- **What you expected**, and **what happened instead**, word for word if there was an error.
+- **Whether it happens every time**, or only now and then.
+- **A screenshot**, if you can. Ziggy Bot's **System Health** page is useful too if something shows red there.
+
+**Suggesting an idea.** Tell me what you'd like a bot to do for you, and why. Real examples of jobs you want done
+help the most.
+
+> **Please never send passwords, keys or other private details.** They're never needed for a bug report. If a
+> screenshot shows something private, cover it before you send it.
+
+Every report is read, and reports like yours decide what gets fixed and built next.
 
 ---
-
 ## Glossary
 
 | Word | Meaning |
