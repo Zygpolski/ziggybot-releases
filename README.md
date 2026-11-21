@@ -12,7 +12,7 @@
 **Your own team of AI helpers, living on your own PC. No subscription. No usage limits. Nothing leaves your computer
 unless you send it.**
 
-Ziggy Bot is a Windows app where you make *bots*: helpers that each have one job, like "watch these token prices",
+Ziggy Bot is a Windows app where you make *bots*: helpers that each have one job, like "keep an eye on this web page",
 "research this for me" or "write my morning briefing". You talk to them in chats, like messaging a colleague. They
 browse the web, read and write files, do exact sums, remember what you tell them, work together as a team and run
 jobs on a timetable, and they always stop to ask you before doing anything that can't be undone.
@@ -66,7 +66,7 @@ with files, remember, follow schedules and pass work between each other, while y
 
 | | What it means for you |
 |---|---|
-| 🤖 **Bots with one job each** | Make a bot from 10 ready-made templates or from scratch. Each has its own name, face, instructions, tools and memory |
+| 🤖 **Bots with one job each** | Make a bot from a ready-made template or from scratch. Each has its own name, face, instructions, tools and memory |
 | 💬 **Chat like a colleague** | Message a bot, attach files and pictures (it can see them), and watch every step it takes |
 | 👥 **Teams** | Put several bots in one thread. A lead bot splits your request, hands the parts out and reports back |
 | 🌐 **Its own web browser** | The bots search, open pages, click, type and read, including tables and charts, in a Chrome of their own |
@@ -155,14 +155,12 @@ Closing the window keeps it running in the tray, so routines carry on.
 
 1. Press **+** next to **Bots** in the sidebar.
 2. Pick a **template**, or **Blank** to start from nothing. Each template is a ready-made bot with the tools its job
-   needs and no more:
+   needs and no more. Among them:
 
    | Template | What it does |
    |---|---|
    | **Chief of Staff** | Runs a team: splits your request between other bots and reports back. Can make new bots and team threads (with your OK) |
    | **Researcher** | Finds things out on the web and in files; has every everyday tool |
-   | **Crypto Watcher** | Follows token prices from public price feeds |
-   | **Token Checker** | Looks a token up on the web and checks its details |
    | **Trend Scout** | Spots what's trending |
    | **Daily Briefer** | Writes you a short briefing, ideal as a daily routine |
    | **Web Assistant** | Does things on websites for you: clicks, types, reads |
@@ -170,10 +168,8 @@ Closing the window keeps it running in the tray, so routines carry on.
    | **Writer** | Drafts and edits text and files |
    | **Security Tutor** | Teaches cyber security with legal practice labs |
 
-   None of them trades, sends or posts anything.
+   None of them sends, buys or posts anything on its own.
 3. Change its name, picture, job or instructions if you like, and save. It appears in the sidebar with its own chat.
-
-![The New bot page: ten templates and Blank](docs/readme/screens/new-bot.png)
 
 **The bot editor** (the **Edit** button at the top of a bot's chat) has everything about a bot: **Instructions**,
 **Tools & Connectors** (tick what it may use), **Skills**, **Routines**, **Memory** and **Permissions**.
@@ -194,7 +190,7 @@ A bot's status dot in the sidebar shows what it's doing: idle, working, waiting 
 Tips for good answers:
 
 - **One job per bot.** A focused bot does better than one that does everything.
-- **Say what you want back**: "the price and the 1-hour change", "a list of five", "save it as prices.csv".
+- **Say what you want back**: "the opening hours and the address", "a list of five", "save it as trip-notes.md".
 - **Bots save files only when you ask** ("save", "file", "export"). Otherwise they answer in the chat.
 - **Figures are worked out with the calculator** for bots that have it, so sums are exact.
 
@@ -221,7 +217,7 @@ Normally the bots' Chrome works out of sight, and you watch it in the **Computer
 automated, and Ziggy Bot doesn't hide that.
 
 Some things only a person should do: **signing in, "are you human" checks, two-step codes, installing an extension**
-(a crypto wallet, say). For those, the browser **takes turns**:
+(a password manager, say). For those, the browser **takes turns**:
 
 ![The bots' browser takes turns](docs/readme/browser-turns.svg)
 
@@ -258,7 +254,7 @@ under it; press **Undo** if it got something wrong.
   can't "remember" something it made up.
 - The **Memory** page shows them all: search, add, edit, pin or delete. Delete one and the bots forget it, including
   where you said it.
-- For things that change (prices, balances), bots check the live source instead of trusting memory.
+- For things that change (the weather, opening hours, the news), bots check the live source instead of trusting memory.
 
 ![How a bot remembers](docs/readme/memory.svg)
 
@@ -266,7 +262,7 @@ under it; press **Undo** if it got something wrong.
 
 ## 10. Skills: teach a bot how
 
-A **skill** is a saved method: "to check a token, open this page, read these three figures, compare them…". When a
+A **skill** is a saved method: "to plan a day out, check the weather for that date, find the opening hours, sum it up…". When a
 request matches a skill, the bot follows it. Three ways to make one:
 
 - **Save as skill**, under a reply that went well.
@@ -284,12 +280,12 @@ a skill) and when:
 - **On a schedule**: every day at 9:00, weekdays, one day a week, every hour…
 - **Every…**: every 15 minutes, every 2 hours…
 - **Once**: at a date and time.
-- **Watch**: check again and again until something happens (a price crosses a line, say), then tell you and stop.
+- **Watch**: check again and again until something happens (a page announces new tickets, say), then tell you and stop.
 
 The bot's report appears in its chat. **A run that finds nothing new stays quiet**, so you're only told when there's
 news. Every run is in the routine's history, and **Run now** tries one straight away.
 
-![The Routines page: a daily briefing and a price watch](docs/readme/screens/routines.png)
+![The Routines page: a morning briefing and a hot-day alert](docs/readme/screens/routines.png)
 
 ## 12. Good to know
 
@@ -367,7 +363,7 @@ A routine has a name, a bot, what to do (a request, or a skill with its details)
 
 - **Check first**: a plain check that runs *without* waking the AI, so the graphics card stays free. Watch **a web
   page** (fires when it changes, contains some text, or no longer contains it) or **a value from an API address**
-  (fires when it changes, is above or below a number, or equals something, e.g. `data.0.price`). The bot is only
+  (fires when it changes, is above or below a number, or equals something, e.g. `current.temperature`). The bot is only
   woken when the check fires.
 - **Nothing new when…**: describe what counts as no news; the bot then answers NOTHING NEW and the run stays quiet.
 - **Retries if a run fails**, and how many minutes apart.
@@ -381,7 +377,7 @@ Once and Watch routines switch themselves off after they fire. At start-up, Zigg
 
 Press **Teach** (on a bot's Skills section or the Computer panel), choose the bot, then do the task in the bots'
 browser. Ziggy Bot records where you went, what you clicked and typed (password boxes are masked) and what each
-thing on the page was. When you finish, it drafts a skill with the parts that change each time (a token name, a
+thing on the page was. When you finish, it drafts a skill with the parts that change each time (a place name, a
 date) turned into details you fill in. You review it, edit it and save it.
 
 When the bot later uses the skill, it follows it as *instructions*, not as a blind replay, so small changes to the
@@ -506,8 +502,8 @@ details always wait for your Approve, unless you deliberately set a tool to auto
 **What if a website blocks it?** Press Take control, do the step yourself on your turn, and give it back. A few sites
 refuse automated browsers entirely; the bot tells you when that happens.
 
-**Can I use my crypto wallet extension?** Yes: install it in the bots' browser on your turn. The wallet's password
-stays yours, and anything that sends or signs waits for your approval.
+**Can I use my browser extensions?** Yes: install them in the bots' browser on your turn. Their passwords
+stay yours, and anything that sends, buys or signs waits for your approval.
 
 **Will it slow my games down?** Bots share your graphics card, so heavy games and bots slow each other. Pause all
 bots while you play.

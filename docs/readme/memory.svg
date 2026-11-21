@@ -56,5 +56,5 @@
     <path d="M693 266 H715" marker-end="url(#a)"/>
   </g>
   <text x="480" y="348" font-size="13.5" fill="#1b1f2a" text-anchor="middle">Delete a memory on the Memory page and the bots forget it, and where it was said.</text>
-  <text x="480" y="370" font-size="12.5" fill="#5b6275" text-anchor="middle">Prices, balances and anything that changes are checked live, not taken from memory.</text>
+  <text x="480" y="370" font-size="12.5" fill="#5b6275" text-anchor="middle">The weather, opening hours and anything else that changes are checked live, not taken from memory.</text>
 </svg>

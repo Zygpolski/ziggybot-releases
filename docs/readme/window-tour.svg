@@ -15,7 +15,7 @@
     <circle cx="40" cy="150" r="4" fill="#f5b942"/><text x="52" y="154">Researcher</text>
     <circle cx="40" cy="172" r="4" fill="#3fbf7f"/><text x="52" y="176">Writer</text>
     <text x="36" y="210" font-size="11" fill="#8a90a6" letter-spacing="1">THREADS   +</text>
-    <text x="52" y="234">Pionex team</text>
+    <text x="52" y="234">Weekend plans</text>
     <text x="36" y="274">Search</text>
     <text x="36" y="296">Memory</text>
     <text x="36" y="318">Files</text>
@@ -36,12 +36,12 @@
 
   <!-- messages -->
   <rect x="440" y="140" width="220" height="40" rx="10" fill="#3b4bb0"/>
-  <text x="452" y="165" font-size="13" fill="#fff">What's PEPE's price now?</text>
+  <text x="452" y="165" font-size="13" fill="#fff">When does the library open?</text>
   <rect x="230" y="196" width="300" height="120" rx="10" fill="#262b3b"/>
   <rect x="242" y="206" width="276" height="34" rx="6" fill="#2f3548"/>
   <text x="254" y="228" font-size="12" fill="#aeb4c8">▸ 2 steps: opened a page, read it</text>
-  <text x="246" y="266" font-size="13" fill="#e6e9f2">PEPE is at 0.00123, up 12.5%</text>
-  <text x="246" y="286" font-size="13" fill="#e6e9f2">in the last hour.</text>
+  <text x="246" y="266" font-size="13" fill="#e6e9f2">The library opens at 9:00 today</text>
+  <text x="246" y="286" font-size="13" fill="#e6e9f2">and closes at 17:00.</text>
   <rect x="230" y="326" width="230" height="24" rx="12" fill="#22352c" stroke="#3d8a62"/>
   <text x="244" y="342" font-size="11" fill="#9fd9b8">Memory updated for Researcher · Undo</text>
 
@@ -61,15 +61,15 @@
   <text x="696" y="106" font-size="14" font-weight="700" fill="#e6e9f2">Computer</text>
   <rect x="696" y="120" width="228" height="140" rx="6" fill="#f3f4f8" stroke="#3a4057"/>
   <rect x="696" y="120" width="228" height="18" rx="6" fill="#dfe2ea"/>
-  <text x="708" y="160" font-size="11" font-weight="700" fill="#333">Token board</text>
+  <text x="708" y="160" font-size="11" font-weight="700" fill="#333">City Library</text>
   <rect x="708" y="170" width="200" height="10" fill="#dfe2ea"/><rect x="708" y="186" width="200" height="10" fill="#eceef3"/>
   <rect x="708" y="202" width="200" height="10" fill="#dfe2ea"/><rect x="708" y="218" width="200" height="10" fill="#eceef3"/>
   <rect x="708" y="234" width="120" height="10" fill="#dfe2ea"/>
-  <text x="696" y="286" font-size="12" fill="#c9cee0">Researcher · Token board</text>
+  <text x="696" y="286" font-size="12" fill="#c9cee0">Researcher · City Library</text>
   <text x="696" y="308" font-size="12" fill="#8a90a6">Writer · Docs</text>
   <rect x="696" y="326" width="110" height="28" rx="6" fill="#4f5bd5"/><text x="751" y="345" font-size="12" fill="#fff" text-anchor="middle">Take control</text>
   <text x="696" y="386" font-size="12" font-weight="700" fill="#e6e9f2">Activity</text>
-  <text x="696" y="408" font-size="11" fill="#8a90a6">Researcher opened Token board</text>
+  <text x="696" y="408" font-size="11" fill="#8a90a6">Researcher opened City Library</text>
   <text x="696" y="428" font-size="11" fill="#8a90a6">Researcher read the page</text>
 
   <!-- callouts -->
