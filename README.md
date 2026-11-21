@@ -145,7 +145,7 @@ you press **Update**. Your bots, chats, memories and settings are kept.
 
 ## 3. A tour of the window
 
-![The Ziggy Bot window](docs/readme/window-tour.svg)
+![The Ziggy Bot window, labelled: a real conversation where the Researcher answered from a web page, then waits for approval before deleting a file](docs/readme/screens/tour.png)
 
 - **The sidebar** (left) lists your **Bots** and your **Threads** (team chats), then the pages: Search, Memory,
   Files, Routines, Approvals (with a red count when something is waiting for you), Computer, System Health and
