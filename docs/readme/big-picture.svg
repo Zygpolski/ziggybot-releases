@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <rect width="960" height="440" rx="16" fill="#f8f9fc"/>
+  <text x="40" y="48" font-size="22" font-weight="700" fill="#1b1f2a">Ziggy Bot in one picture</text>
+
+  <!-- You -->
+  <circle cx="110" cy="230" r="46" fill="#e8ecff" stroke="#4f5bd5" stroke-width="2"/>
+  <circle cx="110" cy="214" r="13" fill="#4f5bd5"/>
+  <path d="M84 254 Q110 222 136 254 Z" fill="#4f5bd5"/>
+  <text x="110" y="300" font-size="16" font-weight="700" fill="#1b1f2a" text-anchor="middle">You</text>
+  <line x1="160" y1="230" x2="236" y2="230" stroke="#6b7280" stroke-width="2" marker-end="url(#a)" marker-start="url(#a)"/>
+  <text x="198" y="214" font-size="12" fill="#5b6275" text-anchor="middle">you ask</text>
+  <text x="198" y="254" font-size="12" fill="#5b6275" text-anchor="middle">you decide</text>
+
+  <!-- The app -->
+  <rect x="240" y="90" width="330" height="280" rx="14" fill="#ffffff" stroke="#4f5bd5" stroke-width="2"/>
+  <text x="405" y="124" font-size="18" font-weight="700" fill="#1b1f2a" text-anchor="middle">Ziggy Bot</text>
+  <text x="405" y="146" font-size="13" fill="#5b6275" text-anchor="middle">the app on your PC</text>
+  <g>
+    <line x1="300" y1="182" x2="300" y2="192" stroke="#4f5bd5" stroke-width="3"/><circle cx="300" cy="179" r="5" fill="#4f5bd5"/>
+    <rect x="272" y="192" width="56" height="44" rx="10" fill="#4f5bd5"/>
+    <circle cx="289" cy="210" r="5" fill="#fff"/><circle cx="311" cy="210" r="5" fill="#fff"/>
+    <rect x="290" y="222" width="20" height="4" rx="2" fill="#fff"/>
+    <text x="300" y="262" font-size="12" fill="#1b1f2a" text-anchor="middle">Chief of Staff</text>
+  </g>
+  <g>
+    <line x1="405" y1="182" x2="405" y2="192" stroke="#1f9d8b" stroke-width="3"/><circle cx="405" cy="179" r="5" fill="#1f9d8b"/>
+    <rect x="377" y="192" width="56" height="44" rx="10" fill="#1f9d8b"/>
+    <circle cx="394" cy="210" r="5" fill="#fff"/><circle cx="416" cy="210" r="5" fill="#fff"/>
+    <rect x="395" y="222" width="20" height="4" rx="2" fill="#fff"/>
+    <text x="405" y="262" font-size="12" fill="#1b1f2a" text-anchor="middle">Researcher</text>
+  </g>
+  <g>
+    <line x1="510" y1="182" x2="510" y2="192" stroke="#e0823d" stroke-width="3"/><circle cx="510" cy="179" r="5" fill="#e0823d"/>
+    <rect x="482" y="192" width="56" height="44" rx="10" fill="#e0823d"/>
+    <circle cx="499" cy="210" r="5" fill="#fff"/><circle cx="521" cy="210" r="5" fill="#fff"/>
+    <rect x="500" y="222" width="20" height="4" rx="2" fill="#fff"/>
+    <text x="510" y="262" font-size="12" fill="#1b1f2a" text-anchor="middle">Writer</text>
+  </g>
+  <text x="405" y="306" font-size="13" fill="#3b4152" text-anchor="middle">Each bot has one job, its own tools</text>
+  <text x="405" y="326" font-size="13" fill="#3b4152" text-anchor="middle">and its own memory. They can work as a team.</text>
+
+  <!-- What the bots use -->
+  <g font-size="15">
+    <path d="M570 230 C610 230 610 110 646 110" fill="none" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M570 230 C610 230 610 194 646 194" fill="none" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M570 230 C610 230 610 278 646 278" fill="none" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M570 230 C610 230 610 362 646 362" fill="none" stroke="#6b7280" stroke-width="2" marker-end="url(#a)"/>
+
+    <rect x="650" y="78" width="270" height="64" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <rect x="650" y="78" width="8" height="64" rx="4" fill="#7a4fd5"/>
+    <text x="672" y="105" font-weight="700" fill="#1b1f2a">The AI model</text>
+    <text x="672" y="126" font-size="12.5" fill="#5b6275">Gemma 4, on your graphics card</text>
+
+    <rect x="650" y="162" width="270" height="64" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <rect x="650" y="162" width="8" height="64" rx="4" fill="#1f7fd0"/>
+    <text x="672" y="189" font-weight="700" fill="#1b1f2a">The bots' browser</text>
+    <text x="672" y="210" font-size="12.5" fill="#5b6275">Chrome, with a profile of its own</text>
+
+    <rect x="650" y="246" width="270" height="64" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <rect x="650" y="246" width="8" height="64" rx="4" fill="#1f9d8b"/>
+    <text x="672" y="273" font-weight="700" fill="#1b1f2a">The workspace</text>
+    <text x="672" y="294" font-size="12.5" fill="#5b6275">a folder of the bots' shared files</text>
+
+    <rect x="650" y="330" width="270" height="64" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <rect x="650" y="330" width="8" height="64" rx="4" fill="#e0823d"/>
+    <text x="672" y="357" font-weight="700" fill="#1b1f2a">Memory</text>
+    <text x="672" y="378" font-size="12.5" fill="#5b6275">what the bots learn about you</text>
+  </g>
+  <text x="480" y="425" font-size="13" fill="#5b6275" text-anchor="middle">Everything runs on your PC. The internet is used only for the websites and services the bots work with.</text>
+</svg>

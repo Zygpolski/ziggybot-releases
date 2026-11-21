@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#4b5263"/>
+    </marker>
+  </defs>
+  <rect width="960" height="390" rx="16" fill="#f8f9fc"/>
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#1b1f2a">How a bot remembers</text>
+
+  <text x="41" y="76" font-size="13" font-weight="700" fill="#4f5bd5" letter-spacing="1">BEFORE EACH REPLY</text>
+  <g font-size="12.5" fill="#3b4152">
+    <rect x="41" y="86" width="200" height="84" rx="12" fill="#fff" stroke="#4f5bd5"/>
+    <text x="57" y="112" font-size="14.5" font-weight="700" fill="#1b1f2a">Your message</text>
+    <text x="57" y="136">e.g. "what's my sister's</text>
+    <text x="57" y="154">name again?"</text>
+    <rect x="267" y="86" width="200" height="84" rx="12" fill="#fff" stroke="#4f5bd5"/>
+    <text x="283" y="112" font-size="14.5" font-weight="700" fill="#1b1f2a">Search</text>
+    <text x="283" y="136">the 20 memories closest</text>
+    <text x="283" y="154">in meaning are found</text>
+    <rect x="493" y="86" width="200" height="84" rx="12" fill="#fff" stroke="#4f5bd5"/>
+    <text x="509" y="112" font-size="14.5" font-weight="700" fill="#1b1f2a">Pick</text>
+    <text x="509" y="136">the AI keeps up to 5</text>
+    <text x="509" y="154">that really help</text>
+    <rect x="719" y="86" width="200" height="84" rx="12" fill="#fff" stroke="#4f5bd5"/>
+    <text x="735" y="112" font-size="14.5" font-weight="700" fill="#1b1f2a">Use</text>
+    <text x="735" y="136">they go into the notes</text>
+    <text x="735" y="154">for this reply</text>
+  </g>
+
+  <text x="41" y="214" font-size="13" font-weight="700" fill="#1f9d8b" letter-spacing="1">AFTER EACH REPLY</text>
+  <g font-size="12.5" fill="#3b4152">
+    <rect x="41" y="224" width="200" height="84" rx="12" fill="#fff" stroke="#1f9d8b"/>
+    <text x="57" y="250" font-size="14.5" font-weight="700" fill="#1b1f2a">Reply done</text>
+    <text x="57" y="274">the bot has answered</text>
+    <text x="57" y="292">you</text>
+    <rect x="267" y="224" width="200" height="84" rx="12" fill="#fff" stroke="#1f9d8b"/>
+    <text x="283" y="250" font-size="14.5" font-weight="700" fill="#1b1f2a">Read</text>
+    <text x="283" y="274">your words and what its</text>
+    <text x="283" y="292">tools found, not its reply</text>
+    <rect x="493" y="224" width="200" height="84" rx="12" fill="#fff" stroke="#1f9d8b"/>
+    <text x="509" y="250" font-size="14.5" font-weight="700" fill="#1b1f2a">Save</text>
+    <text x="509" y="274">new facts, with details</text>
+    <text x="509" y="292">(names, ages, he or she)</text>
+    <rect x="719" y="224" width="200" height="84" rx="12" fill="#fff" stroke="#1f9d8b"/>
+    <text x="735" y="250" font-size="14.5" font-weight="700" fill="#1b1f2a">Show</text>
+    <text x="735" y="274">a Memory chip under</text>
+    <text x="735" y="292">the reply, with Undo</text>
+  </g>
+
+  <g stroke="#4b5263" stroke-width="2" fill="none">
+    <path d="M241 128 H263" marker-end="url(#a)"/>
+    <path d="M467 128 H489" marker-end="url(#a)"/>
+    <path d="M693 128 H715" marker-end="url(#a)"/>
+    <path d="M241 266 H263" marker-end="url(#a)"/>
+    <path d="M467 266 H489" marker-end="url(#a)"/>
+    <path d="M693 266 H715" marker-end="url(#a)"/>
+  </g>
+  <text x="480" y="348" font-size="13.5" fill="#1b1f2a" text-anchor="middle">Delete a memory on the Memory page and the bots forget it, and where it was said.</text>
+  <text x="480" y="370" font-size="12.5" fill="#5b6275" text-anchor="middle">Prices, balances and anything that changes are checked live, not taken from memory.</text>
+</svg>

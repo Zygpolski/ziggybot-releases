@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#4b5263"/>
+    </marker>
+  </defs>
+  <rect width="960" height="460" rx="16" fill="#f8f9fc"/>
+  <text x="40" y="48" font-size="22" font-weight="700" fill="#1b1f2a">The bots' browser takes turns</text>
+
+  <!-- bots' turn -->
+  <rect x="40" y="80" width="360" height="250" rx="14" fill="#eef4ff" stroke="#1f7fd0" stroke-width="2"/>
+  <rect x="62" y="96" width="34" height="28" rx="7" fill="#1f7fd0"/>
+  <circle cx="73" cy="108" r="3.5" fill="#fff"/><circle cx="85" cy="108" r="3.5" fill="#fff"/>
+  <rect x="73" y="116" width="12" height="3" rx="1.5" fill="#fff"/>
+  <text x="108" y="118" font-size="19" font-weight="700" fill="#174f86">The bots' turn</text>
+  <g font-size="14" fill="#1b1f2a">
+    <text x="64" y="156">• Chrome runs out of sight</text>
+    <text x="64" y="182">• The bots click, type and read pages</text>
+    <text x="64" y="208">• It tells websites it is automated</text>
+    <text x="64" y="234">• You watch live in the Computer panel</text>
+    <text x="64" y="260">• Risky clicks still ask you first</text>
+    <text x="64" y="286">• Routines and skills run as normal</text>
+  </g>
+  <text x="64" y="314" font-size="12" fill="#5b6275">This is the normal state.</text>
+
+  <!-- your turn -->
+  <rect x="560" y="80" width="360" height="250" rx="14" fill="#fff6ea" stroke="#e0823d" stroke-width="2"/>
+  <circle cx="595" cy="104" r="9" fill="#e0823d"/>
+  <path d="M579 128 Q595 110 611 128 Z" fill="#e0823d"/>
+  <text x="620" y="118" font-size="19" font-weight="700" fill="#8a4a17">Your turn</text>
+  <g font-size="14" fill="#1b1f2a">
+    <text x="584" y="156">• The same Chrome opens as a window</text>
+    <text x="584" y="182">• Nothing is attached: it is just Chrome</text>
+    <text x="584" y="208">• You sign in and pass human checks</text>
+    <text x="584" y="234">• Extensions such as Phantom work</text>
+    <text x="584" y="260">• The bots wait, and can only look</text>
+    <text x="584" y="286">• A routine waits until you give it back</text>
+  </g>
+  <text x="584" y="314" font-size="12" fill="#5b6275">The Computer panel shows "Your turn".</text>
+
+  <!-- arrows -->
+  <path d="M404 160 H552" stroke="#4b5263" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+  <text x="480" y="148" font-size="13" font-weight="700" fill="#1b1f2a" text-anchor="middle">Take control</text>
+  <text x="480" y="180" font-size="12" fill="#5b6275" text-anchor="middle">or a sign-in hand-off</text>
+  <path d="M556 260 H408" stroke="#4b5263" stroke-width="2.5" fill="none" marker-end="url(#a)"/>
+  <text x="480" y="248" font-size="13" font-weight="700" fill="#1b1f2a" text-anchor="middle">Give back</text>
+  <text x="480" y="280" font-size="12" fill="#5b6275" text-anchor="middle">or minimise or close it</text>
+
+  <!-- footer -->
+  <rect x="40" y="356" width="880" height="80" rx="12" fill="#eceef4"/>
+  <text x="480" y="388" font-size="13.5" fill="#1b1f2a" text-anchor="middle">Both turns use the bots' own Chrome profile, so a sign-in you make on your turn is still there on theirs.</text>
+  <text x="480" y="414" font-size="13.5" fill="#1b1f2a" text-anchor="middle">Your everyday Chrome, its passwords and its profile are never opened.</text>
+</svg>

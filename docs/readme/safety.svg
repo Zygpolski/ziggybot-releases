@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" font-family="Segoe UI, Arial, sans-serif">
+  <rect width="960" height="420" rx="16" fill="#f8f9fc"/>
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#1b1f2a">You stay in charge: seven safety layers</text>
+  <g font-size="13.5" fill="#3b4152">
+    <rect x="40" y="66" width="880" height="40" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <circle cx="66" cy="86" r="12" fill="#4f5bd5"/><text x="66" y="91" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+    <text x="90" y="91" font-weight="700" fill="#1b1f2a">Only the tools you give</text>
+    <text x="320" y="91">a bot has only the tools ticked in its editor</text>
+
+    <rect x="40" y="114" width="880" height="40" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <circle cx="66" cy="134" r="12" fill="#4f5bd5"/><text x="66" y="139" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+    <text x="90" y="139" font-weight="700" fill="#1b1f2a">Approvals</text>
+    <text x="320" y="139">sending, buying, posting, deleting, your details: it asks first</text>
+
+    <rect x="40" y="162" width="880" height="40" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <circle cx="66" cy="182" r="12" fill="#4f5bd5"/><text x="66" y="187" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+    <text x="90" y="187" font-weight="700" fill="#1b1f2a">Web pages can't give orders</text>
+    <text x="320" y="187">what a page says is marked as the page's words, not yours</text>
+
+    <rect x="40" y="210" width="880" height="40" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <circle cx="66" cy="230" r="12" fill="#4f5bd5"/><text x="66" y="235" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+    <text x="90" y="235" font-weight="700" fill="#1b1f2a">Bot checks come to you</text>
+    <text x="320" y="235">sign-ins, CAPTCHAs and codes are yours, on your turn; bots never sign in</text>
+
+    <rect x="40" y="258" width="880" height="40" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <circle cx="66" cy="278" r="12" fill="#4f5bd5"/><text x="66" y="283" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+    <text x="90" y="283" font-weight="700" fill="#1b1f2a">The output check</text>
+    <text x="320" y="283">runaway or garbled text is cut before you see it</text>
+
+    <rect x="40" y="306" width="880" height="40" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <circle cx="66" cy="326" r="12" fill="#4f5bd5"/><text x="66" y="331" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+    <text x="90" y="331" font-weight="700" fill="#1b1f2a">The claim check</text>
+    <text x="320" y="331">a "done" with no tool behind it is pointed out under the reply</text>
+
+    <rect x="40" y="354" width="880" height="40" rx="10" fill="#fff" stroke="#d5d9e6"/>
+    <circle cx="66" cy="374" r="12" fill="#4f5bd5"/><text x="66" y="379" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+    <text x="90" y="379" font-weight="700" fill="#1b1f2a">Stop at any time</text>
+    <text x="320" y="379">Stop beside the message box, Pause all bots, or Take control</text>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#4b5263"/>
+    </marker>
+  </defs>
+  <rect width="960" height="480" rx="16" fill="#f8f9fc"/>
+  <text x="40" y="48" font-size="22" font-weight="700" fill="#1b1f2a">What happens when you send a message</text>
+
+  <g font-size="12.5" fill="#3b4152">
+    <!-- row 1 -->
+    <rect x="40" y="80" width="260" height="86" rx="12" fill="#fff" stroke="#4f5bd5" stroke-width="1.5"/>
+    <circle cx="62" cy="104" r="13" fill="#4f5bd5"/><text x="62" y="109" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+    <text x="84" y="109" font-size="14.5" font-weight="700" fill="#1b1f2a">You send a message</text>
+    <text x="56" y="136">in a bot's chat or a team thread</text>
+
+    <rect x="350" y="80" width="260" height="86" rx="12" fill="#fff" stroke="#4f5bd5" stroke-width="1.5"/>
+    <circle cx="372" cy="104" r="13" fill="#4f5bd5"/><text x="372" y="109" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+    <text x="394" y="109" font-size="14.5" font-weight="700" fill="#1b1f2a">Notes are added</text>
+    <text x="366" y="136">the time, your profile, and the</text>
+    <text x="366" y="154">memories and skill that help</text>
+
+    <rect x="660" y="80" width="260" height="86" rx="12" fill="#fff" stroke="#4f5bd5" stroke-width="1.5"/>
+    <circle cx="682" cy="104" r="13" fill="#4f5bd5"/><text x="682" y="109" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+    <text x="704" y="109" font-size="14.5" font-weight="700" fill="#1b1f2a">It waits its turn</text>
+    <text x="676" y="136">one model: you first, then tasks,</text>
+    <text x="676" y="154">routines, then background work</text>
+
+    <!-- row 2 -->
+    <rect x="660" y="220" width="260" height="86" rx="12" fill="#fff" stroke="#7a4fd5" stroke-width="1.5"/>
+    <circle cx="682" cy="244" r="13" fill="#7a4fd5"/><text x="682" y="249" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+    <text x="704" y="249" font-size="14.5" font-weight="700" fill="#1b1f2a">The model works</text>
+    <text x="676" y="276">it writes the answer, or asks</text>
+    <text x="676" y="294">for one of the bot's tools</text>
+
+    <rect x="350" y="220" width="260" height="86" rx="12" fill="#fff" stroke="#7a4fd5" stroke-width="1.5"/>
+    <circle cx="372" cy="244" r="13" fill="#7a4fd5"/><text x="372" y="249" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+    <text x="394" y="249" font-size="14.5" font-weight="700" fill="#1b1f2a">A tool runs</text>
+    <text x="366" y="276">open a page, read a file, a sum…</text>
+    <text x="366" y="294">risky ones ask you first</text>
+
+    <rect x="40" y="220" width="260" height="86" rx="12" fill="#fff" stroke="#7a4fd5" stroke-width="1.5"/>
+    <circle cx="62" cy="244" r="13" fill="#7a4fd5"/><text x="62" y="249" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+    <text x="84" y="249" font-size="14.5" font-weight="700" fill="#1b1f2a">The result goes back</text>
+    <text x="56" y="276">the model reads what the tool</text>
+    <text x="56" y="294">found and decides what's next</text>
+
+    <!-- row 3 -->
+    <rect x="660" y="364" width="260" height="86" rx="12" fill="#fff" stroke="#1f9d8b" stroke-width="1.5"/>
+    <circle cx="682" cy="388" r="13" fill="#1f9d8b"/><text x="682" y="393" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+    <text x="704" y="393" font-size="14.5" font-weight="700" fill="#1b1f2a">The reply appears</text>
+    <text x="676" y="420">with a task card of every</text>
+    <text x="676" y="438">step the bot took</text>
+
+    <rect x="350" y="364" width="260" height="86" rx="12" fill="#fff" stroke="#1f9d8b" stroke-width="1.5"/>
+    <circle cx="372" cy="388" r="13" fill="#1f9d8b"/><text x="372" y="393" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">8</text>
+    <text x="394" y="393" font-size="14.5" font-weight="700" fill="#1b1f2a">Memory is updated</text>
+    <text x="366" y="420">from your words, never the</text>
+    <text x="366" y="438">bot's; a chip with Undo</text>
+
+    <rect x="40" y="364" width="260" height="86" rx="12" fill="#fff" stroke="#1f9d8b" stroke-width="1.5"/>
+    <circle cx="62" cy="388" r="13" fill="#1f9d8b"/><text x="62" y="393" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">9</text>
+    <text x="84" y="393" font-size="14.5" font-weight="700" fill="#1b1f2a">Claims are checked</text>
+    <text x="56" y="420">a "done" with no tool behind it</text>
+    <text x="56" y="438">is pointed out under the reply</text>
+  </g>
+
+  <g stroke="#4b5263" stroke-width="2" fill="none">
+    <path d="M300 123 H346" marker-end="url(#a)"/>
+    <path d="M610 123 H656" marker-end="url(#a)"/>
+    <path d="M790 166 V216" marker-end="url(#a)"/>
+    <path d="M660 263 H614" marker-end="url(#a)"/>
+    <path d="M350 263 H304" marker-end="url(#a)"/>
+    <path d="M170 306 V334 H730 V310" marker-end="url(#a)" stroke-dasharray="6 4"/>
+    <path d="M860 306 V360" marker-end="url(#a)"/>
+    <path d="M660 407 H614" marker-end="url(#a)"/>
+    <path d="M350 407 H304" marker-end="url(#a)"/>
+  </g>
+  <text x="450" y="327" font-size="12" fill="#5b6275" text-anchor="middle">repeat 4 → 5 → 6 until the answer is ready</text>
+  <text x="868" y="340" font-size="12" fill="#5b6275">done</text>
+</svg>
