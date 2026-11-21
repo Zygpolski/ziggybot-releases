@@ -5,6 +5,7 @@
   &nbsp;·&nbsp; <a href="#2-install-it-and-start-it">How to install</a>
   &nbsp;·&nbsp; <a href="#everything-ziggy-bot-can-do">What it can do</a>
   &nbsp;·&nbsp; <a href="#questions-people-ask">Questions</a>
+  &nbsp;·&nbsp; <a href="mailto:zygpolski@proton.me">Report a bug</a>
 </p>
 
 # Ziggy Bot
@@ -17,6 +18,10 @@ Ziggy Bot is a Windows app where you make *bots*: helpers that each have one job
 browse the web, read and write files, do exact sums, remember what you tell them, work together as a team and run
 jobs on a timetable, and they always stop to ask you before doing anything that can't be undone.
 
+> 🚀 **Always getting better.** Ziggy Bot is in active development, with new features and fixes arriving regularly
+> through its built-in updates. As a young project it may still have the odd bug, so thank you for your patience. If something
+> doesn't work as it should, or you have an idea that would make Ziggy Bot better, I'd love to hear from you:
+> **[zygpolski@proton.me](mailto:zygpolski@proton.me)**. Every report helps shape the next version.
 ![Ziggy Bot in one picture](docs/readme/big-picture.svg)
 
 ![Ziggy Bot: a bot has opened a web page and answered, with the Computer panel showing its browser](docs/readme/screens/main-window.png)
@@ -161,6 +166,8 @@ Closing the window keeps it running in the tray, so routines carry on.
    |---|---|
    | **Chief of Staff** | Runs a team: splits your request between other bots and reports back. Can make new bots and team threads (with your OK) |
    | **Researcher** | Finds things out on the web and in files; has every everyday tool |
+   | **Market Watcher** | Follows the stocks you care about: live prices, the day's move and the year's range |
+   | **Market Analyst** | Explains markets and trading in plain words: trends, key levels, risks and the sums |
    | **Trend Scout** | Spots what's trending |
    | **Daily Briefer** | Writes you a short briefing, ideal as a daily routine |
    | **Web Assistant** | Does things on websites for you: clicks, types, reads |
@@ -504,6 +511,10 @@ refuse automated browsers entirely; the bot tells you when that happens.
 
 **Can I use my browser extensions?** Yes: install them in the bots' browser on your turn. Their passwords
 stay yours, and anything that sends, buys or signs waits for your approval.
+
+**I found a bug, or I have an idea. Where do I send it?** Email **[zygpolski@proton.me](mailto:zygpolski@proton.me)**:
+say what you did, what you expected and what happened instead (a screenshot helps). Ziggy Bot is improved all the time,
+and reports like yours decide what gets fixed first.
 
 **Will it slow my games down?** Bots share your graphics card, so heavy games and bots slow each other. Pause all
 bots while you play.
