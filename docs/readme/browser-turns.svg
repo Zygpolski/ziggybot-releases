@@ -14,12 +14,12 @@
   <rect x="73" y="116" width="12" height="3" rx="1.5" fill="#fff"/>
   <text x="108" y="118" font-size="19" font-weight="700" fill="#174f86">The bots' turn</text>
   <g font-size="14" fill="#1b1f2a">
-    <text x="64" y="156">• Chrome runs out of sight</text>
+    <text x="64" y="156">• Comes up when a bot opens a page for you</text>
     <text x="64" y="182">• The bots click, type and read pages</text>
-    <text x="64" y="208">• It tells websites it is automated</text>
-    <text x="64" y="234">• You watch live in the Computer panel</text>
+    <text x="64" y="208">• Minimise it to tuck it into the panel</text>
+    <text x="64" y="234">• It tells websites it is automated</text>
     <text x="64" y="260">• Risky clicks still ask you first</text>
-    <text x="64" y="286">• Routines and skills run as normal</text>
+    <text x="64" y="286">• Routines run quietly out of sight</text>
   </g>
   <text x="64" y="314" font-size="12" fill="#5b6275">This is the normal state.</text>
 

@@ -221,8 +221,10 @@ A **thread** is a group chat with several bots. Press **+** next to **Threads**,
 Your bots have **their own Chrome**: the Chrome you already have, but with a separate profile used only by the bots.
 Your own Chrome, your passwords and your everyday profile are never opened.
 
-Normally the bots' Chrome works out of sight, and you watch it in the **Computer panel**. Websites can tell it's
-automated, and Ziggy Bot doesn't hide that.
+**When a bot opens a page for you, its browser comes up in front of you**, so you can watch it work, and the
+**Computer panel** opens beside the chat. **Minimise** the browser and it tucks into that panel, where you can keep
+an eye on it; **close it with ✕** when you're done. Web searches and routines run out of sight, and you can watch
+them in the Computer panel too. Websites can tell the bots' browser is automated, and Ziggy Bot doesn't hide that.
 
 Some things only a person should do: **signing in, "are you human" checks, two-step codes, installing an extension**
 (a password manager, say). For those, the browser **takes turns**:
