@@ -9,6 +9,7 @@
 <p align="center">
   <a href="#what-is-ziggy-bot"><b>What it is</b></a> &nbsp;·&nbsp;
   <a href="#features"><b>Features</b></a> &nbsp;·&nbsp;
+  <a href="#talking-to-bots-in-a-group"><b>Group chats</b></a> &nbsp;·&nbsp;
   <a href="#part-1-getting-started"><b>Get started</b></a> &nbsp;·&nbsp;
   <a href="#part-2-for-advanced-users"><b>Advanced</b></a> &nbsp;·&nbsp;
   <a href="#questions-people-ask"><b>FAQ</b></a> &nbsp;·&nbsp;
@@ -73,6 +74,18 @@ cloud. Ziggy Bot asks a simple question: **what if that whole team lived on your
 | **Yours to shape** | As many bots as you like, each with its own job, tools and memory; a standard or an uncensored AI model |
 | **Safe by design** | Anything that can't be undone waits for your OK |
 
+## Talking to bots in a group
+
+Put several bots in one **group thread** and talk to the whole team at once. Use **@** to choose who answers:
+
+| You type | What happens |
+|---|---|
+| `Plan a weekend in the Blue Mountains` | No bot named, so the group's **lead** takes it, hands parts to the others and reports back |
+| `@Researcher find three facts about the Blue Mountains` | Only the **Researcher** answers |
+| `@Writer give me a fun title for the trip` | Only the **Writer** answers |
+
+Type **@** and a list of the group's bots pops up: pick one with the arrow keys and Enter. See
+[Teams of bots](#6-teams-of-bots) for more.
 **The guide:** [Getting started](#part-1-getting-started) covers everything you need, step by step.
 [For advanced users](#part-2-for-advanced-users) goes through every tool and setting.
 Then there are [questions people ask](#questions-people-ask) and a [glossary](#glossary).
