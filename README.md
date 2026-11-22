@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/Zygpolski/ziggybot-releases/releases/latest"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows%2011-4f5bd5?style=for-the-badge&logo=windows11&logoColor=white"></a>
   <a href="https://github.com/Zygpolski/ziggybot-releases/releases/latest"><img alt="Latest version" src="https://img.shields.io/github/v/release/Zygpolski/ziggybot-releases?style=for-the-badge&label=latest&color=7a4fd5"></a>
-  <img alt="Active development" src="https://img.shields.io/badge/status-active%20development-1f9d8b?style=for-the-badge">
+  <img alt="Beta" src="https://img.shields.io/badge/status-beta-e0823d?style=for-the-badge">
 </p>
 
 <p align="center">
@@ -36,6 +36,12 @@ a team and run jobs on a timetable, and they **always stop to ask you** before d
 
 The AI runs on your own graphics card: **no subscription, no usage limits, and your data stays on your computer.**
 Ziggy Bot is in active development, with improvements arriving through its built-in updates.
+
+> [!IMPORTANT]
+> **Ziggy Bot is in beta.** It works, and it's used every day, but it's young software: you may meet the odd bug or
+> rough edge, and things will keep improving through its updates. **Beta testers are very welcome.** If you need help,
+> something doesn't work, or you have an idea, email **[zygpolski@proton.me](mailto:zygpolski@proton.me)** or use the
+> [bug report form](https://github.com/Zygpolski/ziggybot-releases/issues/new/choose). Every message is read.
 
 > ⭐ **Like the idea?** Star this page: it's how other people find Ziggy Bot, and it helps more than you'd think.
 
@@ -550,7 +556,7 @@ then choose **More info → Run anyway**.
 
 ## Feedback and support
 
-Ziggy Bot is in active development: new features and fixes arrive regularly through its built-in updates. As a young
+Ziggy Bot is in beta and in active development: new features and fixes arrive regularly through its built-in updates. As a young
 project it may still have the odd rough edge, and your feedback is the fastest way to smooth it out. Whether something
 isn't working, something could be clearer, or you have an idea for a new feature, I'd love to hear from you.
 
