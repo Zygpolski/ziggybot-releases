@@ -19,6 +19,14 @@
 <p align="center"><img src="docs/readme/demo.gif" alt="Ziggy Bot at work: a request is typed, the Researcher opens the Sydney Opera House page in its browser (shown live in the Computer panel) and answers in three points" width="94%"></p>
 <p align="center"><sub>Real, not a mock-up: the app, its AI model and the web page, recorded as they happened.</sub></p>
 
+<table align="center">
+<tr>
+<td align="center" width="33%"><b>1. Download</b><br><sub>Get the installer from the <a href="https://github.com/Zygpolski/ziggybot-releases/releases/latest">latest release</a> and run it.</sub></td>
+<td align="center" width="33%"><b>2. Set up</b><br><sub>Ziggy Bot checks your PC and fetches the AI model that fits your graphics card.</sub></td>
+<td align="center" width="33%"><b>3. Ask</b><br><sub>Pick a ready-made bot and tell it what you need. That's it.</sub></td>
+</tr>
+</table>
+
 ## What is Ziggy Bot?
 
 Ziggy Bot is a Windows app that gives you **a team of AI helpers that work on your own PC**. Each bot has one job,
@@ -28,6 +36,8 @@ a team and run jobs on a timetable, and they **always stop to ask you** before d
 
 The AI runs on your own graphics card: **no subscription, no usage limits, and your data stays on your computer.**
 Ziggy Bot is in active development, with improvements arriving through its built-in updates.
+
+> ⭐ **Like the idea?** Star this page: it's how other people find Ziggy Bot, and it helps more than you'd think.
 
 <p align="center"><img src="docs/readme/big-picture.svg" alt="Ziggy Bot in one picture" width="94%"></p>
 
@@ -68,12 +78,15 @@ that browse, remember, run routines and hand work to each other. A brilliant ide
 else's servers, with a monthly fee, limits on how much you can use it, and your conversations in another company's
 cloud. Ziggy Bot asks a simple question: **what if that whole team lived on your own PC instead?**
 
-| | |
-|---|---|
-| **No subscription, no limits** | The AI runs on your graphics card, so it costs nothing to use, however much you use it |
-| **Private** | Your chats, memories, files and sign-ins stay on your computer |
-| **Yours to shape** | As many bots as you like, each with its own job, tools and memory; a standard or an uncensored AI model |
-| **Safe by design** | Anything that can't be undone waits for your OK |
+| | Ziggy Bot | A typical cloud AI assistant |
+|---|---|---|
+| **Cost** | Free to use: the AI runs on your own graphics card | A monthly subscription |
+| **Limits** | None: use it as much as you like | Message caps and usage tiers |
+| **Your data** | Chats, memories, files and sign-ins stay on your PC | Stored on the company's servers |
+| **Your bots** | As many as you like, each with its own job, tools and memory | What the service offers |
+| **The AI model** | A standard one, or an uncensored one you choose | The company's choice |
+| **Risky actions** | Nothing that can't be undone happens without your OK | Depends on the service |
+| **Works offline** | Yes, for your own files (the web needs the internet, of course) | No |
 
 ## Talking to bots in a group
 
