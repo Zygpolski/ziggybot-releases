@@ -94,6 +94,39 @@ cloud. Ziggy Bot asks a simple question: **what if that whole team lived on your
 | **Risky actions** | Nothing that can't be undone happens without your OK | Depends on the service |
 | **Works offline** | Yes, for your own files (the web needs the internet, of course) | No |
 
+## Why Gemma 4?
+
+<p align="center">
+  <img alt="A long day: 40 of 40" src="https://img.shields.io/badge/a%20long%20day-40%20of%2040-1f9d8b?style=for-the-badge">
+  <img alt="Every scenario: 192 of 192" src="https://img.shields.io/badge/every%20scenario-192%20of%20192-7a4fd5?style=for-the-badge">
+  <img alt="Floods and leaks: none" src="https://img.shields.io/badge/floods%20%26%20leaks-none-4f5bd5?style=for-the-badge">
+</p>
+
+Picking the brain behind your bots wasn't a guess. Before Gemma 4 earned its place, another popular local model was
+put through exactly the same tough tests, side by side. Gemma 4 pulled ahead where it matters most for a team of
+helpers that works all day.
+
+| 🧪 The test | The other local model | 🏆 Gemma 4 |
+|---|---|---|
+| 🗓️ **A long day:** a chat with 28 hours of history | 37 of 40. Three times it answered *without opening the page* | **40 of 40** |
+| 🚦 **Behaving under pressure** | An emoji flood, remembered words leaking into replies, a command run outside the workspace without asking | **None of that** |
+| ✅ **Every scenario**, after Ziggy Bot's safety work | — | **192 of 192 (100%)** |
+
+The other model kept making mistakes; Gemma 4 got every answer of its own right. That settled it.
+
+<table>
+<tr>
+<td width="33%" valign="top"><b>🔧 Made for tools</b><br><sub>It reliably opens pages, clicks, saves files and does sums when asked, instead of just talking about it.</sub></td>
+<td width="33%" valign="top"><b>👀 It can see</b><br><sub>It reads the pictures you attach and the web pages your bots open, tables and charts included.</sub></td>
+<td width="33%" valign="top"><b>📏 One family, every card</b><br><sub>Sizes from 6 GB to 32 GB graphics cards: the same behaviour, scaled to your PC.</sub></td>
+</tr>
+<tr>
+<td valign="top"><b>🧘 Steady over a long day</b><br><sub>No floods, no rambling, no "remembering" things you never said.</sub></td>
+<td valign="top"><b>🔓 Open and yours</b><br><sub>An open model under the Apache 2.0 licence, running entirely on your PC.</sub></td>
+<td valign="top"><b>🎓 Room to grow</b><br><sub>Its uncensored version, for studying cyber security, scored 167 of 168 on the same scorecard, against Gemma 4's own 168 of 168.</sub></td>
+</tr>
+</table>
+
 ## Talking to bots in a group
 
 Put several bots in one **group thread** and talk to the whole team at once. Use **@** to choose who answers:

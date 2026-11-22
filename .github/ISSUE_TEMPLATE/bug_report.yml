@@ -12,8 +12,8 @@ body:
     id: version
     attributes:
       label: Ziggy Bot version
-      description: Shown at the bottom left of the window, under Settings (for example v0.9.55).
-      placeholder: v0.9.55
+      description: Shown at the bottom left of the window, under Settings (for example v0.9.56).
+      placeholder: v0.9.56
     validations:
       required: true
   - type: input
