@@ -16,7 +16,8 @@
   <a href="#feedback-and-support"><b>Feedback</b></a>
 </p>
 
-<p align="center"><img src="docs/readme/screens/main-window.png" alt="Ziggy Bot: the Researcher has opened a web page and answered, with the Computer panel showing its browser" width="94%"></p>
+<p align="center"><img src="docs/readme/demo.gif" alt="Ziggy Bot at work: a request is typed, the Researcher opens the Sydney Opera House page in its browser (shown live in the Computer panel) and answers in three points" width="94%"></p>
+<p align="center"><sub>Real, not a mock-up: the app, its AI model and the web page, recorded as they happened.</sub></p>
 
 ## What is Ziggy Bot?
 
