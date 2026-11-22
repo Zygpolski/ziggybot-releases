@@ -102,11 +102,11 @@ cloud. Ziggy Bot asks a simple question: **what if that whole team lived on your
   <img alt="Floods and leaks: none" src="https://img.shields.io/badge/floods%20%26%20leaks-none-4f5bd5?style=for-the-badge">
 </p>
 
-Picking the brain behind your bots wasn't a guess. Before Gemma 4 earned its place, another popular local model was
-put through exactly the same tough tests, side by side. Gemma 4 pulled ahead where it matters most for a team of
-helpers that works all day.
+Picking the brain behind your bots wasn't a guess. Before Gemma 4 earned its place, I tested at least 10 different
+local AI models, which were all put through exactly the same tough tests, side by side. Gemma 4 pulled ahead where it
+matters most for a team of helpers that works all day.
 
-| 🧪 The test | The other local model | 🏆 Gemma 4 |
+| 🧪 The test | Another local model tested | 🏆 Gemma 4 |
 |---|---|---|
 | 🗓️ **A long day:** a chat with 28 hours of history | 37 of 40. Three times it answered *without opening the page* | **40 of 40** |
 | 🚦 **Behaving under pressure** | An emoji flood, remembered words leaking into replies, a command run outside the workspace without asking | **None of that** |
