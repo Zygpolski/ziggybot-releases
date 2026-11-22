@@ -28,11 +28,6 @@ a team and run jobs on a timetable, and they **always stop to ask you** before d
 The AI runs on your own graphics card: **no subscription, no usage limits, and your data stays on your computer.**
 Ziggy Bot is in active development, with improvements arriving through its built-in updates.
 
-> [!NOTE]
-> **Known issue: the bots' browser.** We're aware the browser window can flicker or slip behind Ziggy Bot when a bot
-> opens a page, and that a sign-in or a newly added extension can sometimes be lost when you hand the browser back.
-> We're working on a fix now, and it will arrive as an automatic update. See [the bots' browser](#7-the-bots-browser-and-taking-turns) for a tip in the meantime.
-
 <p align="center"><img src="docs/readme/big-picture.svg" alt="Ziggy Bot in one picture" width="94%"></p>
 
 ## Features
@@ -91,9 +86,15 @@ Put several bots in one **group thread** and talk to the whole team at once. Use
 
 Type **@** and a list of the group's bots pops up: pick one with the arrow keys and Enter. See
 [Teams of bots](#6-teams-of-bots) for more.
-**The guide:** [Getting started](#part-1-getting-started) covers everything you need, step by step.
-[For advanced users](#part-2-for-advanced-users) goes through every tool and setting.
-Then there are [questions people ask](#questions-people-ask) and a [glossary](#glossary).
+
+## How this guide works
+
+| If you are... | Start here |
+|---|---|
+| **New to Ziggy Bot** | [Part 1: Getting started](#part-1-getting-started): install it, make your first bot and chat, step by step |
+| **Ready for more** | [Part 2: For advanced users](#part-2-for-advanced-users): every tool, setting and safety rule |
+| **Looking for a quick answer** | [Questions people ask](#questions-people-ask) and the [glossary](#glossary) |
+| **Stuck, or found a bug** | [Feedback and support](#feedback-and-support) |
 
 ---
 # Part 1: Getting started
@@ -239,16 +240,13 @@ Some things only a person should do: **signing in, "are you human" checks, two-s
 - **Your turn** starts when you press **Take control** in the Computer panel, or when a bot reaches a sign-in or a
   check and hands it to you (you get a notification). The same Chrome opens as an ordinary window, so websites see a
   normal browser. Sign in, tick the box, install the extension: whatever is needed. The panel shows **Your turn**.
-- **Give it back** with **Give back** in the panel, or by minimising or closing that window. The bots' Chrome comes
-  back with the same tabs, and anything you signed in to stays signed in.
+- **Give it back** with **Give back** in the panel, or by minimising or closing that window. Ziggy Bot lets Chrome
+  finish saving first, so anything you signed in to stays signed in and an extension you added stays added. If Chrome
+  is still busy (a download, say), it stays your turn and Ziggy Bot tells you why. The bots' Chrome comes back,
+  out of sight, with the same tabs.
 - **During your turn the bots wait.** If you ask a bot about the page then, it can only *look* at your screen; it
   won't click or type. Routines that need the browser wait too, and the panel shows how many are waiting, so you
   don't forget to give it back.
-
-> [!TIP]
-> **While we fix the browser:** when you've signed in or added an extension on your turn, wait about ten seconds for
-> Chrome to save it, then press **Give back** in the Computer panel rather than minimising the window. If the window
-> slips behind Ziggy Bot, the **Computer** panel always shows it.
 
 **Bots never sign in for you.** Sign-ins, passwords and codes are always yours. A few websites refuse automated
 browsers even after you've signed in; then the bot says so, and that job is one to do yourself.
@@ -528,6 +526,12 @@ stay yours, and anything that sends, buys or signs waits for your approval.
 **Will it slow my games down?** Bots share your graphics card, so heavy games and bots slow each other. Pause all
 bots while you play.
 
+**Is there a Mac or Linux version?** Not yet: Ziggy Bot is for Windows 11 with an NVIDIA graphics card.
+
+**Windows says the publisher is unknown. Is that safe?** That's Windows being careful with a new app from an
+independent maker. Download Ziggy Bot only from this page's [releases](https://github.com/Zygpolski/ziggybot-releases/releases/latest),
+then choose **More info → Run anyway**.
+
 ---
 
 ## Feedback and support
@@ -536,11 +540,18 @@ Ziggy Bot is in active development: new features and fixes arrive regularly thro
 project it may still have the odd rough edge, and your feedback is the fastest way to smooth it out. Whether something
 isn't working, something could be clearer, or you have an idea for a new feature, I'd love to hear from you.
 
-<p align="center"><a href="mailto:zygpolski@proton.me"><img alt="Email zygpolski@proton.me" src="https://img.shields.io/badge/Email-zygpolski%40proton.me-6d4aff?style=for-the-badge&logo=protonmail&logoColor=white"></a></p>
+<p align="center">
+  <a href="https://github.com/Zygpolski/ziggybot-releases/issues/new?template=bug_report.yml"><img alt="Report a bug" src="https://img.shields.io/badge/Report%20a%20bug-d73a49?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://github.com/Zygpolski/ziggybot-releases/issues/new?template=feature_request.yml"><img alt="Suggest an idea" src="https://img.shields.io/badge/Suggest%20an%20idea-1f9d8b?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="mailto:zygpolski@proton.me"><img alt="Email zygpolski@proton.me" src="https://img.shields.io/badge/Email-zygpolski%40proton.me-6d4aff?style=for-the-badge&logo=protonmail&logoColor=white"></a>
+</p>
+
+Report a bug or suggest an idea with the buttons above (a short form on GitHub), or by email if you'd rather keep it
+private.
 
 **Reporting a bug.** The more of these you can include, the quicker it can be found and fixed:
 
-- **Your version**, shown at the bottom of the sidebar (for example *v0.9.53*).
+- **Your version**, shown at the bottom of the sidebar (for example *v0.9.55*).
 - **What you did**, step by step: which bot (and the template it came from), and what you asked it.
 - **What you expected**, and **what happened instead**, word for word if there was an error.
 - **Whether it happens every time**, or only now and then.

@@ -1,0 +1,51 @@
+name: Report a bug
+description: Something in Ziggy Bot didn't work as it should.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The more you can tell us, the faster it gets fixed.
+        **Never paste passwords, codes, API keys or anything private here.** This page is public.
+  - type: input
+    id: version
+    attributes:
+      label: Ziggy Bot version
+      description: Shown at the bottom left of the window, under Settings (for example v0.9.55).
+      placeholder: v0.9.55
+    validations:
+      required: true
+  - type: input
+    id: card
+    attributes:
+      label: Graphics card
+      description: Its name and memory, if you know them (System Health shows them).
+      placeholder: e.g. a 12 GB card
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+      placeholder: |
+        I asked my bot to open a page, and ...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again
+      description: The steps, one per line, if you can repeat it.
+      placeholder: |
+        1. Open Ziggy Bot
+        2. ...
+  - type: textarea
+    id: pictures
+    attributes:
+      label: Screenshots or a short screen recording
+      description: Drag them in here. Check they show nothing private first.
+  - type: textarea
+    id: health
+    attributes:
+      label: System Health
+      description: If a part shows a problem in System Health, what does it say?
