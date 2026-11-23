@@ -202,7 +202,8 @@ clearly worded jobs.
 When it's finished, the model starts by itself (a few seconds) and you're ready.
 
 Windows may warn that the publisher is unknown the first time you run the installer; choose **More info → Run
-anyway**.
+anyway**. If Windows says **"Smart App Control blocked an app"** (no Run anyway) or later **"Part of this app has
+been blocked"**, see [Questions people ask](#questions-people-ask).
 
 **Updates** arrive by themselves: when there's a new version, Ziggy Bot says *Update available* and installs it when
 you press **Update**. Your bots, chats, memories and settings are kept.
@@ -589,6 +590,20 @@ bots while you play.
 **Windows says the publisher is unknown. Is that safe?** That's Windows being careful with a new app from an
 independent maker. Download Ziggy Bot only from this page's [releases](https://github.com/Zygpolski/ziggybot-releases/releases/latest),
 then choose **More info → Run anyway**.
+
+**Windows says "Smart App Control blocked an app that may be unsafe" and won't run the installer.** Smart App Control
+(below) has no "Run anyway". Ziggy Bot can only be installed with it turned off: **Windows Security → App & browser
+control → Smart App Control settings → Off**, then run the installer again. Read the next answer before you decide.
+
+**Windows says "Part of this app has been blocked", or the AI model won't start.** That's Windows' **Smart App
+Control**, which blocks program files from makers it doesn't know yet, and Ziggy Bot is new. It can stop the AI model
+using your graphics card. Ziggy Bot checks for this every time it starts the model, and if the card can't be used it
+tells you on **System Health** instead of running slowly.
+1. Press **Restart** beside the AI model on System Health, or quit Ziggy Bot and open it again. Windows often allows
+   the file the second time.
+2. If it keeps happening, turn Smart App Control off: **Windows Security → App & browser control → Smart App Control
+   settings → Off**. Microsoft Defender keeps protecting your PC. On some versions of Windows, Smart App Control can't
+   be turned back on without reinstalling Windows, so decide that for yourself.
 
 ---
 
