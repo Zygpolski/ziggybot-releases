@@ -178,8 +178,13 @@ downloads only the version that fits:
 The smaller versions make more mistakes when they use tools, so bots on a 6 or 8 GB card work best with simple,
 clearly worded jobs.
 
-> **Tested so far:** the 12 GB version, which Ziggy Bot was built and tested on. The other versions are **not tested
-> yet**: their memory use is an estimate, and on a 6 GB card the model may not fit beside what Windows already uses.
+> **Tested so far:**
+> - **12 GB:** the version Ziggy Bot was built and tested on, through every release.
+> - **8 GB:** passed **31 of 31** in Ziggy Bot's release check. It uses about 5.5 GB of graphics memory, leaving room
+>   for Windows.
+> - **6 GB:** passed **30 of 31**. It sometimes doesn't use what it remembers about you, so check its memories now and
+>   then. It uses about 3.6 GB of graphics memory.
+> - **16 GB and larger:** not tested yet.
 
 ## 2. Install it and start it
 
